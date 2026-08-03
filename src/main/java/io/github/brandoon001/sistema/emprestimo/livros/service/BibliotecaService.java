@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package service;
+package io.github.brandoon001.sistema.emprestimo.livros.service;
 import java.util.ArrayList;
-import exceptions.LivroIndisponivelException;
-import model.Livro;
-import model.Usuario;
+import io.github.brandoon001.sistema.emprestimo.livros.exceptions.LivroIndisponivelException;
+import io.github.brandoon001.sistema.emprestimo.livros.model.Livro;
+import io.github.brandoon001.sistema.emprestimo.livros.model.Usuario;
 /**
  *
  * @author brandoon

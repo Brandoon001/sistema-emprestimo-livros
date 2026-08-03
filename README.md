@@ -30,29 +30,27 @@ Sistema de empréstimo de livros desenvolvido em **Java** para execução via te
 ## 📂 Estrutura do Projeto
 
 ```text
-Sistema-Emprestimo-Livros/
+SistemaEmprestimoLivros/
 │
 ├── assets/
 │   └── preview.png
 │
 ├── src/
 │   ├── main/
-│   │   └── Main.java
+│   │   ├── java/
+│   │   │   └── io.github.brandoon001.sistema.emprestimo.livros/
+│   │   │       ├── Main.java
+│   │   │       ├── model/
+│   │   │       ├── service/
+│   │   │       └── exceptions/
+│   │   └── resources/
 │   │
-│   ├── model/
-│   │   ├── Livro.java
-│   │   ├── Usuario.java
-│   │   ├── Aluno.java
-│   │   └── Professor.java
-│   │
-│   ├── service/
-│   │   └── BibliotecaService.java
-│   │
-│   └── exceptions/
-│       └── LivroIndisponivelException.java
+│   └── test/
+│       └── java/
 │
-├── .gitignore
-└── README.md
+├── pom.xml
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -80,7 +78,7 @@ Abra o projeto no **Apache NetBeans**
 Execute a classe:
 
 ```text
-main.Main
+io.github.brandoon001.sistema.emprestimo.livros.Main
 ```
 
 ---
@@ -121,8 +119,8 @@ Este projeto foi desenvolvido para praticar os principais conceitos da Programa�
 
 **Antonio Brandoon Costa Silva**
 
-- GitHub: https://github.com/Brandoon001
-- LinkedIn: https://www.linkedin.com/in/brandoon-silva-352894215
+- GitHub: <https://github.com/Brandoon001>
+- LinkedIn: <https://www.linkedin.com/in/brandoon-silva-352894215>
 - Email: brandoonsilva8@gmail.com
 
 ---

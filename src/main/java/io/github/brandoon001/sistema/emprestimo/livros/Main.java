@@ -1,22 +1,19 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package main;
-import exceptions.LivroIndisponivelException;
-import model.Aluno;
-import model.Livro;
-import model.Professor;
-import service.BibliotecaService;
+
+package io.github.brandoon001.sistema.emprestimo.livros;
+import io.github.brandoon001.sistema.emprestimo.livros.exceptions.LivroIndisponivelException;
+import io.github.brandoon001.sistema.emprestimo.livros.model.Aluno;
+import io.github.brandoon001.sistema.emprestimo.livros.model.Livro;
+import io.github.brandoon001.sistema.emprestimo.livros.model.Professor;
+import io.github.brandoon001.sistema.emprestimo.livros.service.BibliotecaService;
 /**
  *
  * @author brandoon
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         
         BibliotecaService biblioteca = new BibliotecaService();
@@ -62,5 +59,4 @@ public class Main {
 
         
     }
-    
 }
